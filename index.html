@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<style>
+
+
+div.contentbox {
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 700px;
+	position: relative;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+}
+
+#myheading{
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 50px;
+color: rgb(255,105,180);
+
+}
+
+h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	color: rgb(255,105,180);
+}
+
+#div1{
+background:url(http://regularlyscheduledprogramming.com/wp-content/uploads/2014/02/rt1-1024x575.png) no-repeat;
+background-size: cover;
+
+}
+
+#div2{
+	background:url(http://i.giphy.com/TyBh3IKdzrR3W.gif)no-repeat;
+	background-size: cover;
+
+}
+
+#div3{
+	background: url(http://i.giphy.com/pWosm28xcPKpO.gif) no-repeat;
+	background-size: cover;
+
+}
+
+#div4{
+	background: url(http://i.giphy.com/14aNGcbWG3H0ic.gif) no-repeat;
+	background-size: cover;
+}
+
+#div5{
+	background:url(http://i.giphy.com/z9y1MRAG2rUvm.gif) no-repeat;
+	background-size: cover;
+}
+
+#div6{
+	background:url(http://i.giphy.com/gcXIiK96WPNzW.gif) no-repeat;
+	background-size: cover;
+}
+
+#div7{
+	background:url(http://i.giphy.com/nzigxjri9Xm80.gif) no-repeat;
+	background-size: cover;
+}
+#div8{
+	background: url(http://i.giphy.com/m4PK7TGYK5Ysg.gif) no-repeat;
+	background-size: cover;
+}
+
+#div9{
+	background:url(http://i.giphy.com/iL7P9QXbWoH4s.gif) no-repeat;
+	background-size: cover;
+}
+
+#div10{
+	background:url(http://i.giphy.com/VS3zCR5S6frDW.gif) no-repeat;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: rgb(255,105,180);
+}
+
+body{
+	background-color: rgb(211,211,211);
+	text-align: center;
+	
+}
+</style>
+
+
+
+<script src="autoScrollTo.js"></script>
+
+
+</head>
+
+
+<body>
+<h2 id="myheading">THE ROYAL TENNEBAUMS</h2>
+<h3>WRITTEN BY WES ANDERSON AND OWEN WILSON</h3>
+<h3>DIRECTED BY WES ANDERSON</h3>
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div1');">
+  CHAPTER1</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div2');">
+  CHAPTER 2</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div3');">
+  CHAPTER 3</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div4');">
+  CHAPTER 4</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div5');">
+  CHAPTER 5</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div6');">
+  CHAPTER 6</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div7');">
+  CHAPTER 7</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div8');">
+  CHAPTER 8</a><br /> 
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div9');">
+  CHAPTER 9</a><br />
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div10');">
+  CHAPTER 10</a><br />
+
+<div id="container">
+
+<!---onmousedown will autoscroll to the first section of the document when you click on "go back to top"-->
+
+<div id="div1" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+
+<div id="div2" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+
+<div id="div3" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+<div id="div4" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+<div id="div5" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+<div id="div6" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+Í
+<div id="div7" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+<div id="div8" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+<div id="div9" class="conte,,.ntbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+<div id="div10" class="contentbox"></div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">
+  go back to top</a>
+
+</div>
+<!--"resetScroller" will scroll all the way back to the stop of "myheading"-->
+
+
+<script type="text/javascript">
+var scrollY = 0;
+var distance = 100;
+var speed = 100;
+function autoScrollTo(el) {
+//supposed to pass off the argument to which div to scroll to//
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById(el).offsetTop;
+//Y positon for targeting the elements vertically instead of horizontally and offsetTop to tell how many pixels div is from parent element//
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+//offsetHeigh and innerHeight to stop the animation from continuing automatically//
+	var animator = setTimeout('autoScrollTo(\''+el+'\')',100);
+//setTimeout will autoScrollto at the speed of 100 milliseconds//
+	if(yPos > bodyHeight){
+		clearTimeout(animator);		
+//If Y is greater than height(bottom), stop//
+	} else {
+		if(currentY < targetY-distance){
+		    scrollY = currentY+distance;
+		    window.scroll(0, scrollY);
+//if current Y is less than target Y - 100px//		    
+	    } else {
+		    clearTimeout(animator);
+	    }
+	}
+}
+function resetScroller(el){
+	var currentY = window.pageYOffset;
+    var targetY = document.getElementById(el).offsetTop;
+	var animator = setTimeout('resetScroller(\''+el+'\')',100);
+	if(currentY > targetY){
+		scrollY = currentY-distance;
+		window.scroll(0, scrollY);
+	} else {
+		clearTimeout(animator);
+	}
+}
+
+</script>
+
+
+</body>
+
+</html>
